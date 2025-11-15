@@ -13,27 +13,34 @@
     <TextView
         android:id="@+id/flashcard_question"
         android:background="@drawable/card_background"
-        android:elevation="5dp"
-        android:textColor="#FFFFFF"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
+        android:elevation="5dp"
         android:gravity="center"
-        android:text="Qui est le 44ᵉ président des États-Unis ?"
-        android:textSize="40sp"
         android:paddingStart="10dp"
-        android:paddingEnd="10dp" />
+        android:paddingEnd="10dp"
+        android:text="Qui va prendre une raclée à l'IUS ? "
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck" />
 
     <TextView
         android:id="@+id/flashcard_answer"
         android:textColor="#000000"
         android:layout_width="match_parent"
+
+
         android:layout_height="200dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:background="@drawable/answer_background"
         android:gravity="center"
-        android:text="Barack Obama"
+        android:text="Jouvens jouanel"
         android:visibility="invisible"
-        android:textSize="40sp" />
+        android:textSize="40sp" />
+
+
+
+</RelativeLayout>
